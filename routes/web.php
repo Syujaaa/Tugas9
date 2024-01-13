@@ -18,3 +18,6 @@ Route::get('/', [userController::class, 'index']);
 Route::get('/tambahUser10', [Usercontroller::class, 'tambah']);
 Route::get('/hapus/{id}', [userController::class, 'hapus']);
 Route::get('/hapusSemua', [userController::class, 'hapusSemua']);
+Route::get('/apapun',  function(){
+    return "halo";
+});
