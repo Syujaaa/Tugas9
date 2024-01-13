@@ -21,3 +21,6 @@ Route::get('/hapusSemua', [userController::class, 'hapusSemua']);
 Route::get('/apapun',  function(){
     return "halo";
 });
+Route::get('/coba',  function(){
+    return "halo";
+});
